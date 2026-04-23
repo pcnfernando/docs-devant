@@ -6499,7 +6499,7 @@
 <p>The Devant cost optimization feature provides detailed cost insights across your organization, enabling you to analyze resource utilization and cost efficiency at the Organization, Project, and Integration levels. The dashboards provide comprehensive visualizations and actionable recommendations to optimize cloud infrastructure costs while maintaining performance.</p>
 <p><strong>All metrics, visualizations, and analytics displayed across the Organization, Project, and Integration levels reflect data for the current month, from the first day up to the current date.</strong> This provides you with up-to-date insights into your resource utilization and cost efficiency.
 Monthly figures show the accumulated data for the current month so far, while comparisons to the previous month are also available in some metrics. This approach gives you both immediate visibility into current spending patterns and an understanding of the trend compared to last month for optimization decisions.</p>
-<p>You can use this information to track ongoing cost optimization efforts and make timely adjustments to your resource allocations within the current billing cycle.</p>
+<p>You can use this information to track ongoing cost optimization efforts and make timely adjustments to your resource allocations during the current billing cycle.</p>
 <h2 id="organization-level">Organization Level<a class="headerlink" href="#organization-level" title="Permanent link">&para;</a></h2>
 <p><img alt="Organization level dashboard" src="../../assets/img/cost-optimization/OrganizationLevel.png" /></p>
 <p>At the Organization level, Devant provides key insights into overall cost savings and resource efficiency across all your projects. You can view the following metrics and visualizations:</p>
@@ -6507,12 +6507,12 @@ Monthly figures show the accumulated data for the current month so far, while co
 <li><strong>Monthly Savings Summary</strong></li>
 </ul>
 <p><img alt="Monthly savings summary chart" src="../../assets/img/cost-optimization/monthly_savings_summary.png" style="width:200px; height:auto;" /></p>
-<p>This chart visualizes the percentage of cost savings achieved (by manual or automatic application of recommendations) compared to missed savings (potential savings missed due to recommendations not being applied) up to the current date. You should aim to maximize the saved cost and minimize missed savings.</p>
+<p>This chart visualizes the percentage of cost savings achieved (by manual or automated application of recommendations) compared to missed savings (potential savings missed due to recommendations not being applied) up to the current date. You should aim to maximize the saved cost and minimize missed savings.</p>
 <ul>
 <li><strong>Total Monthly Savings</strong></li>
 </ul>
 <p><img alt="Total monthly savings card" src="../../assets/img/cost-optimization/total_monthly_savings.png" style="width:300px; height:auto;" /></p>
-<p>This card shows the cost saved in the current month through manual or automatic application of recommendations. It includes a breakdown for Production and Non-Production environments, with a dropdown showing savings for each respective environment.</p>
+<p>This card shows the cost savings in the current month from the manual or automatic application of recommendations. It includes a breakdown for Production and Non-Production environments, with a dropdown that shows savings for each environment.</p>
 <ul>
 <li><strong>Monthly Missed Savings</strong></li>
 </ul>
@@ -6524,7 +6524,7 @@ Monthly figures show the accumulated data for the current month so far, while co
 <p><img alt="Annual savings card" src="../../assets/img/cost-optimization/annual_savings.png" style="width:300px; height:auto;" /></p>
 </li>
 </ul>
-<p>This card shows accumulated savings throughout the year. It combines the savings completed through the end of the previous month with savings achieved up to the present day of the current month. This demonstrates that a fully cost-optimized organization with no savings for the current month has achieved this state by saving costs in previous months.</p>
+<p>This card shows accumulated savings throughout the year. It combines savings completed through the end of the previous month with those achieved up to the current day of the current month. This demonstrates that a fully cost-optimized organization with no savings for the current month has achieved this state by saving costs in previous months.</p>
 <ul>
 <li><strong>Monthly CPU and Memory Cost</strong></li>
 </ul>
@@ -6539,7 +6539,7 @@ Monthly figures show the accumulated data for the current month so far, while co
 <li><strong>Monthly CPU and Memory Efficiency</strong></li>
 </ul>
 <p><img alt="Monthly CPU and Memory efficiency card" src="../../assets/img/cost-optimization/resource_efficiency.png" style="width:300px; height:auto;" /></p>
-<p>This card shows the percentage utilization of CPU and Memory compared to allocation. This metric indicates your resource optimization level, which directly reflects cost optimization. The breakdown of CPU and Memory efficiencies provides individual understanding of each resource's optimization. The percentage change shown compares current efficiency to last month's efficiency with an arrow indicating increase or decrease.</p>
+<p>This card shows the percentage utilization of CPU and Memory relative to their allocations. This metric indicates your resource optimization level, which directly reflects cost optimization. The breakdown of CPU and Memory efficiencies provides individual understanding of each resource's optimization. The percentage change shown compares current efficiency with last month's, with an arrow indicating an increase or decrease.</p>
 <ul>
 <li><strong>Cost Analysis Plot</strong></li>
 </ul>
@@ -6550,7 +6550,7 @@ Monthly figures show the accumulated data for the current month so far, while co
 <li><strong>Utilization Cost</strong> - The ideal cost that should be billed if no extra resources were allocated. This is typically not achievable in practice as some buffer is needed for uninterrupted service.</li>
 <li><strong>Optimized Cost</strong> - The cost suggested by the optimization algorithm that provides sufficient buffer for efficient performance while optimizing costs.</li>
 </ul>
-<p>You can filter the view to show All resources, CPU only, or Memory only for time-based cost analysis.</p>
+<p>You can filter the view to show <code>All</code> resources, CPU only, or Memory only for time-based cost analysis.</p>
 <ul>
 <li><strong>Cost Savings (Deployments Summary)</strong></li>
 </ul>
@@ -6575,7 +6575,7 @@ Monthly figures show the accumulated data for the current month so far, while co
   * Actual Cost after Savings
   * CPU and Memory Efficiency 
   * Ratio of Applied Suggestions to total available recommendations</p>
-<p>You can click on any project in this table or use the top navigation to visit the Project Level cost insights.</p>
+<p>You can click on any project in this table or use the top navigation to view the Project Level cost insights.</p>
 <h2 id="project-level">Project Level<a class="headerlink" href="#project-level" title="Permanent link">&para;</a></h2>
 <p><img alt="Project level dashboard" src="../../assets/img/cost-optimization/ProjectLevel.png" /></p>
 <p>The Project Level view is similar to the Organization Level, with all monthly metrics focused on the selected project. The charts, cards, plots, and tables follow the same format as the Organization Level.</p>
@@ -6584,7 +6584,7 @@ Monthly figures show the accumulated data for the current month so far, while co
 <p>These toggles enable automatic application of recommendations for all deployments in the selected integrations.</p>
 <h2 id="integration-level">Integration Level<a class="headerlink" href="#integration-level" title="Permanent link">&para;</a></h2>
 <p><img alt="Integration level dashboard" src="../../assets/img/cost-optimization/ComponentLevel.png" /></p>
-<p>The Integration Level differs from both Organization and Project levels. At the Integration Level, you can access the release level through both deployment track (version) and environment configuration as shown:</p>
+<p>The Integration Level differs from both the Organization and Project levels. At the Integration Level, you can access the release level through both the deployment track (version) and the environment configuration as shown:</p>
 <p><img alt="Release selection" src="../../assets/img/cost-optimization/release_selection.png" style="width:300px; height:auto;" /></p>
 <p>At the Release Level within the Integration Level, you can view:</p>
 <ul>
