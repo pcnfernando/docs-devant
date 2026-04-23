@@ -226,6 +226,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://wso2.com/devant/docs/monitoring-and-insights/cost-optimization/</loc>
+         <lastmod>2026-04-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://wso2.com/devant/docs/monitoring-and-insights/generate-custom-reports/</loc>
          <lastmod>2026-04-23</lastmod>
          <changefreq>daily</changefreq>
